@@ -68,7 +68,6 @@
 .menu a:hover{
     transition: 1s ease-out;
     box-shadow: 0 3px #b6b4b9;
-    /* top: 3px; */
     /* background-color: #212122; */
     color: rgb(252, 192, 114);
 }
@@ -91,7 +90,7 @@
     border: 3px solid rgb(145, 138, 138);
     height: 100%;
     width: 100%;
-    /* opacity: 0.8; */
+   
 }
 
 
@@ -105,7 +104,7 @@
 }
 
 .card{
-    /* filter: blur(90); */
+    
     float: left;
     border: 2px solid rgb(13, 12, 31);
     height: 500px;
@@ -126,9 +125,6 @@
     margin-left: 65px;
     margin-top: 20px;
     border-radius: 50%;
-    /* padding-left: 90px; */
-    /* border-radius: 90px; */
-    
     /* object-fit: cover; */
 }
 
