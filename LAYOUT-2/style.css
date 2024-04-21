@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Caveat:wght@400..700&family=Fjalla+One&family=Jersey+10+Charted&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lobster&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Shadows+Into+Light&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    
+}
+
+.container{
+    margin: auto;
+    padding: 10px;
+    min-height: 100px;
+    width: 100%;
+    /* border: 2px solid black; */
+}
+
+.header{
+    margin: auto;
+    margin-top: 10px;
+    /* border: 2px solid black; */
+    height: 100px;
+    padding: 10px;
+    
+}
+
+.logo{
+    float: left;
+    /* border: 2px solid black; */
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+    background-color:  #ab9ada;
+    color: white;
+}
+
+.logo h1{
+    margin-left: 30%;
+}
+.menu{
+    float:right;
+    /* border: 2px solid black; */
+    padding: 18px;
+    margin: 10px;
+    width: 45%;
+    padding-right: 20px;
+    padding-left: 40px;
+    background-color:  #ab9ada;
+    
+
+}
+
+.menu a{
+    padding-left: 60px;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.2em;
+    color: white;
+}
+
+.menu a:hover{
+    background-color: white;
+    color:  #9482c4;
+}
+
+.slider{
+    /* border: 2px solid black; */
+    width: 100%;
+    min-height: 100px;
+    margin-top: 10px;
+    padding: 5px;
+
+}
+
+.slider img{
+    width: 100%;
+    height: 400px;
+}
+
+.cont2{
+    /* border: 2px solid black; */
+    margin-top: 10px;
+    height: 500px;
+    width: 100%;
+    
+}
+
+.sidebar{
+    float: left;
+    /* border: 2px solid black; */
+    height: 500px;
+    width: 30%;
+    background-color: #da92daee;
+    padding-left: 15%;
+
+}
+
+.slider marquee p {
+    margin-top: 140px;
+}
+
+
+.box{
+    margin-top: 20px;
+    margin-left: 40px;
+    float: right;
+
+    width: 60%;
+}
+
+.box img{
+    border-radius: 10px;
+    margin: 10px;
+    float: right;
+    height: 200px;
+    width: 200;    
+}
+
+.box h1{
+    text-align: center;
+    margin-left:20px;
+    padding: 10px;
+}
+
+.box p{
+    text-align: justify;
+    padding: 10px;
+    padding-left: 10px;
+}
+
+
+.footer{
+    margin-top: 10px;
+    background-color: #9482c4;
+    height: 80px;
+}
+
+.footer h1{
+    color: white;
+    text-align: center;
+    font-size: 1.1;
+    line-height: 80px;
+}
+
+.footer .heart{
+    color: red;
+}
